@@ -1,0 +1,2818 @@
+═══════════════════════════════════════════════════════════════
+  分析统计信息
+═══════════════════════════════════════════════════════════════
+分析类数量: 12082
+分析方法数量: 101426
+调用图节点数: 20617
+调用图边数: 246278
+═══════════════════════════════════════════════════════════════
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #1: getByName                                          ║
+║  找到 192 条链                                                   ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: int binFor(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentMap: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 2 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.lang.Numbers: int hasheq(java.lang.Number)>->[-1, -1]
+<clojure.lang.APersistentMap: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 3 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 4 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentMap: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 5 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentMap: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 6 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentMap: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 7 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core$not_EQ_: java.lang.Object invoke(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.core$not_EQ_: java.lang.Object invokeStatic(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: boolean equiv(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: boolean equals(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: boolean doEquals(clojure.lang.IPersistentVector,java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentMap: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 8 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 9 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 10 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 11 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.core.Vec: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 12 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 13 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: int binFor(java.lang.Object)>->[-1, -1]
+<clojure.lang.Symbol: int hashCode()>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 14 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 15 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 16 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 17 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core.Vec: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 18 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 19 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.util.Set entrySet()>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.core.Vec: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 20 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 21 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 22 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object getFrom(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: int binFor(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 23 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: int binFor(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.lang.Symbol: int hashCode()>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 24 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: int binFor(java.lang.Object)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<clojure.lang.TaggedLiteral: int hashCode()>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 25 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 26 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 27 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core.Vec: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 28 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 29 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 30 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 31 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 32 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Set entrySet()>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: int count()>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 33 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 34 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 35 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 36 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 37 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core.Vec: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 38 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 39 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core.Vec: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 40 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 41 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.util.Set entrySet()>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 42 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 43 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.util.Set entrySet()>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 44 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 45 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.util.Set entrySet()>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.core.Vec: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 46 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 47 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 48 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 49 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 50 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.lang.Numbers: int hasheq(java.lang.Number)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 51 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.lang.Numbers: int hasheq(java.lang.Number)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 52 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object getFrom(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: int binFor(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 53 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: int binFor(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.lang.Symbol: int hashCode()>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 54 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: int binFor(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.lang.ReaderConditional: int hashCode()>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 55 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: int binFor(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.core.Vec: int hashCode()>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 56 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.util.Set entrySet()>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 57 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 58 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 59 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core.Vec: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 60 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 61 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 62 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 63 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 64 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 65 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 66 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 67 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 68 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 69 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.core.Vec: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 70 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 71 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core.Vec: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 72 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 73 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 74 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 75 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.util.Set entrySet()>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 76 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 77 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 78 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 79 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core.Vec: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 80 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core.Vec: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 81 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.util.Set entrySet()>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 82 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.util.Set entrySet()>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 83 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 84 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 85 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.util.Set entrySet()>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 86 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 87 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 88 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 89 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 90 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 91 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 92 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 93 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 94 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object getFrom(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: int binFor(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 95 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.lang.Numbers: int hasheq(java.lang.Number)>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 96 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.lang.Numbers: int hasheq(java.lang.Number)>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 97 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: int binFor(java.lang.Object)>->[-1, -1]
+<clojure.lang.Symbol: int hashCode()>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 98 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 99 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 100 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 101 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core.Vec: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 102 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 103 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 104 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 105 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 106 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 107 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 108 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 109 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core.Vec: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 110 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 111 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core.Vec: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 112 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.core.Vec: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 113 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: int binFor(java.lang.Object)>->[-1, -1]
+<clojure.lang.Symbol: int hashCode()>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 114 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 115 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 116 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 117 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.util.Set entrySet()>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object getFrom(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: int binFor(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 118 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.lang.Numbers: int hasheq(java.lang.Number)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 119 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 120 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core.Vec: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 121 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 122 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.util.Set entrySet()>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 123 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core.Vec: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 124 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 125 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 126 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 127 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 128 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 129 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 130 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 131 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: int binFor(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 132 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core$conj__4345: java.lang.Object invoke(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.core$conj__4345: java.lang.Object invokeStatic(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: clojure.lang.IPersistentCollection conj(clojure.lang.IPersistentCollection,java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentMap: clojure.lang.IPersistentCollection cons(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: clojure.lang.IPersistentMap assoc(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 133 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core$dissoc: java.lang.Object invoke(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.core$dissoc: java.lang.Object invokeStatic(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object dissoc(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: clojure.lang.IPersistentMap without(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: clojure.lang.IPersistentMap without(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 134 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core$disj: java.lang.Object invoke(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.core$disj: java.lang.Object invokeStatic(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentTreeSet: clojure.lang.IPersistentSet disjoin(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: clojure.lang.IPersistentMap without(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: clojure.lang.IPersistentMap without(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 135 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core$disj: java.lang.Object invoke(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.core$disj: java.lang.Object invokeStatic(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentTreeSet: clojure.lang.IPersistentSet disjoin(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: clojure.lang.IPersistentMap without(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 136 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core$dissoc: java.lang.Object invoke(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.core$dissoc: java.lang.Object invokeStatic(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object dissoc(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: clojure.lang.IPersistentMap without(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 137 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 138 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.util.Set entrySet()>->[-1, -1]
+<clojure.core$set: java.lang.Object invokeStatic(java.lang.Object)>->[-1, -1]
+<clojure.lang.ArraySeq$ArraySeq_double: java.lang.Object reduce(clojure.lang.IFn,java.lang.Object)>->[-1, -1]
+<clojure.lang.Var: java.lang.Object deref()>->[-1, -1]
+<clojure.lang.Var: clojure.lang.Var$TBox getThreadBinding()>->[-1, -1]
+<clojure.lang.PersistentHashMap: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 139 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.util.Set entrySet()>->[-1, -1]
+<clojure.lang.Var: java.lang.Object invoke(java.lang.Object)>->[-1, -1]
+<clojure.lang.Var: clojure.lang.IFn fn()>->[-1, -1]
+<clojure.lang.Var: java.lang.Object deref()>->[-1, -1]
+<clojure.lang.Var: clojure.lang.Var$TBox getThreadBinding()>->[-1, -1]
+<clojure.lang.PersistentHashMap: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 140 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentMap: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 141 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 142 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 143 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 144 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 145 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 146 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.lang.Symbol: int hashCode()>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 147 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.lang.TaggedLiteral: int hashCode()>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 148 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.lang.ReaderConditional: int hashCode()>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 149 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core.Vec: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.core.Vec: int hashCode()>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 150 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 151 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 152 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 153 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 154 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 155 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 156 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core.Vec: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 157 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.util.Set entrySet()>->[-1, -1]
+<clojure.core$partial$fn__4759: java.lang.Object invoke(java.lang.Object)>->[-1, -1]
+<clojure.core$not_EQ_: java.lang.Object invoke(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.core$not_EQ_: java.lang.Object invokeStatic(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: boolean equiv(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: boolean equals(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: boolean doEquals(clojure.lang.IPersistentVector,java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 158 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.lang.TaggedLiteral: int hashCode()>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 159 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core.Vec: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.lang.ReaderConditional: int hashCode()>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 160 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.core.Vec: int hashCode()>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 161 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 162 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 163 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 164 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core.Vec: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 165 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 166 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: int hashCode()>->[-1, -1]
+<clojure.lang.APersistentMap: int mapHash(clojure.lang.IPersistentMap)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 167 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.core$not_EQ_: java.lang.Object invoke(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.core$not_EQ_: java.lang.Object invokeStatic(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: boolean equiv(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: boolean equals(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: boolean doEquals(clojure.lang.IPersistentVector,java.lang.Object)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 168 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.lang.Symbol: int hashCode()>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 169 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core.Vec: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<clojure.lang.TaggedLiteral: int hashCode()>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 170 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.lang.TaggedLiteral: int hashCode()>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 171 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.lang.TaggedLiteral: int hashCode()>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 172 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.lang.ReaderConditional: int hashCode()>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 173 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.lang.ReaderConditional: int hashCode()>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 174 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.util.Set entrySet()>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.lang.ReaderConditional: int hashCode()>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 175 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.core.Vec: int hashCode()>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 176 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.core.Vec: int hashCode()>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 177 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core.Vec: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.lang.TaggedLiteral: int hashCode()>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 178 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core$disj: java.lang.Object invoke(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.core$disj: java.lang.Object invokeStatic(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentTreeSet: clojure.lang.IPersistentSet disjoin(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentSet: boolean contains(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: boolean containsKey(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 179 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core$dissoc: java.lang.Object invoke(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.core$dissoc: java.lang.Object invokeStatic(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object dissoc(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: clojure.lang.IPersistentMap without(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 180 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core$disj: java.lang.Object invoke(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.core$disj: java.lang.Object invokeStatic(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashSet: clojure.lang.IPersistentSet disjoin(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: clojure.lang.IPersistentMap without(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 181 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 182 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 183 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 184 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core$disj: java.lang.Object invoke(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.core$disj: java.lang.Object invokeStatic(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentTreeSet: clojure.lang.IPersistentSet disjoin(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: clojure.lang.IPersistentMap without(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 185 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.core$disj: java.lang.Object invoke(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.core$disj: java.lang.Object invokeStatic(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashSet: clojure.lang.IPersistentSet disjoin(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentSet: boolean contains(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: boolean containsKey(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 186 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 187 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.RT: java.lang.Object get(java.lang.Object,java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 188 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentStructMap: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 189 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Field: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: int hashCode()>->[-1, -1]
+<clojure.lang.LazySeq: int hashCode()>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 190 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Constructor: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.lang.ASeq: int hashCode()>->[-1, -1]
+<clojure.lang.LazySeq: int hashCode()>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 191 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.reflect.Method: java.lang.Object valAt(java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: java.lang.Object valAt(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.PersistentHashMap: int hash(java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: int hasheq(java.lang.Object)>->[-1, -1]
+<clojure.lang.Numbers: int hasheq(java.lang.Number)>->[-1, -1]
+<clojure.lang.LazySeq: int hashCode()>->[-1, -1]
+<clojure.lang.Util: int hash(java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 192 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<clojure.lang.TransactionalHashMap: java.util.Map$Entry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.core.proxy$clojure.lang.APersistentMap$ff19274a: clojure.lang.IMapEntry entryAt(java.lang.Object)>->[-1, -1]
+<clojure.core$not_EQ_: java.lang.Object invoke(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.core$not_EQ_: java.lang.Object invokeStatic(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.Util: boolean equiv(java.lang.Object,java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: boolean equals(java.lang.Object)>->[-1, -1]
+<clojure.lang.APersistentVector: boolean doEquals(clojure.lang.IPersistentVector,java.lang.Object)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+
+
+═══════════════════════════════════════════════════════════════
+  总计: 192 条链
+═══════════════════════════════════════════════════════════════

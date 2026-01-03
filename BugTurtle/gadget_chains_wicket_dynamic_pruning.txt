@@ -1,0 +1,35 @@
+═══════════════════════════════════════════════════════════════
+  分析统计信息
+═══════════════════════════════════════════════════════════════
+分析类数量: 9485
+分析方法数量: 91349
+调用图节点数: 17546
+调用图边数: 167262
+═══════════════════════════════════════════════════════════════
+
+
+ Sink #1: getByName
+
+
+--- 链 1 ---
+<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)>->
+<java.net.URL: int hashCode()>->
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+
+
+ Sink #2: write
+
+
+
+--- 链 1 ---
+<org.apache.wicket.util.upload.DiskFileItem: void readObject(java.io.ObjectInputStream)>->
+<java.io.OutputStream: void write(byte[])>
+
+
+
+═══════════════════════════════════════════════════════════════
+  总计: 2 条链
+═══════════════════════════════════════════════════════════════

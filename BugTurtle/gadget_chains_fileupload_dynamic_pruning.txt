@@ -1,0 +1,46 @@
+═══════════════════════════════════════════════════════════════
+  分析统计信息
+═══════════════════════════════════════════════════════════════
+分析类数量: 8980
+分析方法数量: 87800
+调用图节点数: 16530
+调用图边数: 141028
+═══════════════════════════════════════════════════════════════
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #1: write                                              ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<org.apache.commons.fileupload.disk.DiskFileItem: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<java.io.OutputStream: void write(byte[])>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #2: delete                                             ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<org.apache.commons.fileupload.disk.DiskFileItem: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<java.io.File: boolean delete()>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #3: getByName                                          ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+
+
+═══════════════════════════════════════════════════════════════
+  总计: 3 条链
+═══════════════════════════════════════════════════════════════

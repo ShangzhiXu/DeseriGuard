@@ -1,0 +1,39 @@
+═══════════════════════════════════════════════════════════════
+  分析统计信息
+═══════════════════════════════════════════════════════════════
+分析类数量: 10911
+分析方法数量: 104053
+调用图节点数: 26189
+调用图边数: 279174
+═══════════════════════════════════════════════════════════════
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #1: forName                                            ║
+║  找到 4 条链                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<org.apache.el.MethodExpressionLiteral: void readExternal(java.io.ObjectInput)>->[-1, -1]
+<org.apache.el.util.ReflectionUtil: java.lang.Class forName(java.lang.String)>->[-1, -1]
+<java.lang.Class: java.lang.Class forName(java.lang.String,boolean,java.lang.ClassLoader)>
+
+--- 链 2 ---
+<org.apache.el.MethodExpressionImpl: void readExternal(java.io.ObjectInput)>->[-1, -1]
+<org.apache.el.util.ReflectionUtil: java.lang.Class forName(java.lang.String)>->[-1, -1]
+<java.lang.Class: java.lang.Class forName(java.lang.String,boolean,java.lang.ClassLoader)>
+
+--- 链 3 ---
+<org.apache.el.ValueExpressionImpl: void readExternal(java.io.ObjectInput)>->[-1, -1]
+<org.apache.el.util.ReflectionUtil: java.lang.Class forName(java.lang.String)>->[-1, -1]
+<java.lang.Class: java.lang.Class forName(java.lang.String,boolean,java.lang.ClassLoader)>
+
+--- 链 4 ---
+<org.apache.el.ValueExpressionLiteral: void readExternal(java.io.ObjectInput)>->[-1, -1]
+<org.apache.el.util.ReflectionUtil: java.lang.Class forName(java.lang.String)>->[-1, -1]
+<java.lang.Class: java.lang.Class forName(java.lang.String,boolean,java.lang.ClassLoader)>
+
+
+
+═══════════════════════════════════════════════════════════════
+  总计: 4 条链
+═══════════════════════════════════════════════════════════════

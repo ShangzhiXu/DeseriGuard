@@ -1,0 +1,131 @@
+═══════════════════════════════════════════════════════════════
+  分析统计信息
+═══════════════════════════════════════════════════════════════
+分析类数量: 10005
+分析方法数量: 97382
+调用图节点数: 17735
+调用图边数: 178655
+═══════════════════════════════════════════════════════════════
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #1: start                                              ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<com.mchange.v2.c3p0.impl.JndiRefDataSourceBase: void readObject(java.io.ObjectInputStream)>->
+<com.mchange.v2.naming.ReferenceIndirector$ReferenceSerialized: java.lang.Object getObject()>->
+<com.mchange.v2.naming.ReferenceableUtils: java.lang.Object referenceToObject(javax.naming.Reference,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>->
+<com.mchange.v2.naming.JavaBeanObjectFactory: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>->
+<com.mchange.v2.naming.JavaBeanObjectFactory: java.lang.Object findBean(java.lang.Class,java.util.Map,java.util.Set)>->
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->
+<java.lang.ProcessBuilder: java.lang.Process start()>
+
+--- 链 2 ---
+<com.mchange.v2.c3p0.impl.PoolBackedDataSourceBase: void readObject(java.io.ObjectInputStream)>->
+<com.mchange.v2.naming.ReferenceIndirector$ReferenceSerialized: java.lang.Object getObject()>->
+<com.mchange.v2.naming.ReferenceableUtils: java.lang.Object referenceToObject(javax.naming.Reference,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>->
+<com.mchange.v2.naming.JavaBeanObjectFactory: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>->
+<com.mchange.v2.naming.JavaBeanObjectFactory: java.lang.Object findBean(java.lang.Class,java.util.Map,java.util.Set)>->
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->
+<java.lang.ProcessBuilder: java.lang.Process start()>
+
+--- 链 3 ---
+<com.mchange.v2.c3p0.impl.WrapperConnectionPoolDataSourceBase: void readObject(java.io.ObjectInputStream)>->
+<com.mchange.v2.naming.ReferenceIndirector$ReferenceSerialized: java.lang.Object getObject()>->
+<com.mchange.v2.naming.ReferenceableUtils: java.lang.Object referenceToObject(javax.naming.Reference,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>->
+<com.mchange.v2.naming.JavaBeanObjectFactory: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>->
+<com.mchange.v2.naming.JavaBeanObjectFactory: java.lang.Object findBean(java.lang.Class,java.util.Map,java.util.Set)>->
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->
+<java.lang.ProcessBuilder: java.lang.Process start()>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #2: lookup                                             ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<com.mchange.v2.c3p0.impl.JndiRefDataSourceBase: void readObject(java.io.ObjectInputStream)>->
+<com.mchange.v2.naming.ReferenceIndirector$ReferenceSerialized: java.lang.Object getObject()>->
+<javax.naming.InitialContext: java.lang.Object lookup(javax.naming.Name)>
+
+--- 链 2 ---
+<com.mchange.v2.c3p0.impl.PoolBackedDataSourceBase: void readObject(java.io.ObjectInputStream)>->
+<com.mchange.v2.naming.ReferenceIndirector$ReferenceSerialized: java.lang.Object getObject()>->
+<javax.naming.InitialContext: java.lang.Object lookup(javax.naming.Name)>
+
+--- 链 3 ---
+<com.mchange.v2.c3p0.impl.WrapperConnectionPoolDataSourceBase: void readObject(java.io.ObjectInputStream)>->
+<com.mchange.v2.naming.ReferenceIndirector$ReferenceSerialized: java.lang.Object getObject()>->
+<javax.naming.InitialContext: java.lang.Object lookup(javax.naming.Name)>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #3: getByName                                          ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)>->
+<com.mchange.v1.db.sql.schemarep.ColumnRepImpl: int hashCode()>->
+<com.mchange.v1.db.sql.schemarep.TableRepImpl: int hashCode()>->
+<com.mchange.v1.util.ListUtils: int hashContents(java.util.List)>->
+<java.net.URL: int hashCode()>->
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 2 ---
+<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)>->
+<com.mchange.v1.db.sql.schemarep.UniquenessConstraintRepImpl: int hashCode()>->
+<com.mchange.v1.util.SetUtils: int hashContentsDisregardingSort(java.util.Set)>->
+<com.mchange.v2.collection.MapEntry: int hashCode()>
+<com.mchange.v2.lang.ObjectUtils: int hashOrZero(java.lang.Object)>
+<com.mchange.v1.db.sql.schemarep.TableRepImpl: int hashCode()>
+<com.mchange.v1.util.MapUtils: int hashContentsDisregardingSort(java.util.Map)>
+<com.mchange.v1.db.sql.schemarep.ForeignKeyRepImpl: int hashCode()>
+<com.mchange.v1.util.ListUtils: int hashContents(java.util.List)>
+<java.net.URL: int hashCode()>-
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #4: newTransformer                                     ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<com.mchange.v2.c3p0.impl.JndiRefDataSourceBase: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<com.mchange.v2.naming.ReferenceIndirector$ReferenceSerialized: java.lang.Object getObject()>->[-1, -1]
+<com.mchange.v2.naming.ReferenceableUtils: java.lang.Object referenceToObject(javax.naming.Reference,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>->[-1, -1]
+<com.mchange.v2.naming.JavaBeanObjectFactory: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>->[-1, -1]
+<com.mchange.v2.naming.JavaBeanObjectFactory: java.lang.Object findBean(java.lang.Class,java.util.Map,java.util.Set)>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 2 ---
+<com.mchange.v2.c3p0.impl.PoolBackedDataSourceBase: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<com.mchange.v2.naming.ReferenceIndirector$ReferenceSerialized: java.lang.Object getObject()>->[-1, -1]
+<com.mchange.v2.naming.ReferenceableUtils: java.lang.Object referenceToObject(javax.naming.Reference,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>->[-1, -1]
+<com.mchange.v2.naming.JavaBeanObjectFactory: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>->[-1, -1]
+<com.mchange.v2.naming.JavaBeanObjectFactory: java.lang.Object findBean(java.lang.Class,java.util.Map,java.util.Set)>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 3 ---
+<com.mchange.v2.c3p0.impl.WrapperConnectionPoolDataSourceBase: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<com.mchange.v2.naming.ReferenceIndirector$ReferenceSerialized: java.lang.Object getObject()>->[-1, -1]
+<com.mchange.v2.naming.ReferenceableUtils: java.lang.Object referenceToObject(javax.naming.Reference,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>->[-1, -1]
+<com.mchange.v2.naming.JavaBeanObjectFactory: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)>->[-1, -1]
+<com.mchange.v2.naming.JavaBeanObjectFactory: java.lang.Object findBean(java.lang.Class,java.util.Map,java.util.Set)>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+
+
+═══════════════════════════════════════════════════════════════
+  总计: 11 条链
+═══════════════════════════════════════════════════════════════

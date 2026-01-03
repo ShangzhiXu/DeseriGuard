@@ -1,0 +1,1006 @@
+═══════════════════════════════════════════════════════════════
+  分析统计信息
+═══════════════════════════════════════════════════════════════
+分析类数量: 9280
+分析方法数量: 90462
+调用图节点数: 22552
+调用图边数: 286558
+═══════════════════════════════════════════════════════════════
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #1: loadClass                                          ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<java.util.PropertyPermissionCollection: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.map.MultiValueMap: void putAll(java.util.Map)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 2 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.keyvalue.TiedMapEntry: java.lang.Object setValue(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 3 ---
+<org.apache.commons.collections.bidimap.DualTreeBidiMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.bidimap.AbstractDualBidiMap: void putAll(java.util.Map)>->[-1, -1]
+<org.apache.commons.collections.bidimap.AbstractDualBidiMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 4 ---
+<org.apache.commons.collections.bidimap.DualHashBidiMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.bidimap.AbstractDualBidiMap: void putAll(java.util.Map)>->[-1, -1]
+<org.apache.commons.collections.bidimap.AbstractDualBidiMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 5 ---
+<java.net.SocketPermissionCollection: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.collection.PredicatedCollection: boolean addAll(java.util.Collection)>->[-1, -1]
+<org.apache.commons.collections.set.MapBackedSet: boolean addAll(java.util.Collection)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 6 ---
+<java.io.FilePermissionCollection: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.collection.PredicatedCollection: boolean addAll(java.util.Collection)>->[-1, -1]
+<org.apache.commons.collections.set.MapBackedSet: boolean addAll(java.util.Collection)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 7 ---
+<javax.swing.tree.DefaultTreeSelectionModel: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 8 ---
+<javax.swing.JTree: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 9 ---
+<javax.swing.JMenuBar: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 10 ---
+<javax.swing.JPopupMenu: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 11 ---
+<javax.swing.tree.DefaultMutableTreeNode: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 12 ---
+<javax.swing.JOptionPane: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 13 ---
+<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 14 ---
+<javax.swing.tree.DefaultTreeModel: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 15 ---
+<javax.swing.tree.DefaultTreeCellEditor: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 16 ---
+<org.apache.commons.collections.MultiHashMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.keyvalue.TiedMapEntry: java.lang.Object getValue()>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 17 ---
+<java.beans.VetoableChangeSupport: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.keyvalue.TiedMapEntry: java.lang.Object getValue()>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 18 ---
+<java.beans.PropertyChangeSupport: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.keyvalue.TiedMapEntry: java.lang.Object getValue()>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 19 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.map.ListOrderedMap$ListOrderedMapEntry: java.lang.Object getValue()>->[-1, -1]
+<org.apache.commons.collections.map.AbstractMapDecorator: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PredicateTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 20 ---
+<org.apache.commons.collections.map.Flat3Map: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.map.Flat3Map: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PredicateTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 21 ---
+<org.apache.commons.collections.ReferenceMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.ReferenceMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PredicateTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 22 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.keyvalue.TiedMapEntry: java.lang.String toString()>->[-1, -1]
+<org.apache.commons.collections.keyvalue.TiedMapEntry: java.lang.Object getValue()>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PredicateTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 23 ---
+<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.bag.AbstractMapBag: int hashCode()>->[-1, -1]
+<org.apache.commons.collections.keyvalue.TiedMapEntry: java.lang.Object getValue()>->[-1, -1]
+<org.apache.commons.collections.map.DefaultedMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.ClosureTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.WhileClosure: void execute(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 24 ---
+<java.text.DateFormat$Field: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.InstantiateTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])>->[-1, -1]
+<org.apache.commons.collections.collection.PredicatedCollection: void <init>(java.util.Collection,org.apache.commons.collections.Predicate)>->[-1, -1]
+<org.apache.commons.collections.collection.PredicatedCollection: void validate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 25 ---
+<java.text.NumberFormat$Field: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.InstantiateTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])>->[-1, -1]
+<org.apache.commons.collections.collection.PredicatedCollection: void <init>(java.util.Collection,org.apache.commons.collections.Predicate)>->[-1, -1]
+<org.apache.commons.collections.collection.PredicatedCollection: void validate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 26 ---
+<java.text.AttributedCharacterIterator$Attribute: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.InstantiateTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])>->[-1, -1]
+<org.apache.commons.collections.collection.PredicatedCollection: void <init>(java.util.Collection,org.apache.commons.collections.Predicate)>->[-1, -1]
+<org.apache.commons.collections.collection.PredicatedCollection: void validate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 27 ---
+<java.util.PropertyPermissionCollection: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.map.StaticBucketMap: void putAll(java.util.Map)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PredicateTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformedPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.ClosureTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.WhileClosure: void execute(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 28 ---
+<org.apache.commons.collections.bidimap.DualTreeBidiMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.bidimap.AbstractDualBidiMap: void putAll(java.util.Map)>->[-1, -1]
+<org.apache.commons.collections.keyvalue.TiedMapEntry: java.lang.Object getValue()>->[-1, -1]
+<org.apache.commons.collections.map.Flat3Map: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PredicateTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 29 ---
+<org.apache.commons.collections.bidimap.DualHashBidiMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.bidimap.AbstractDualBidiMap: void putAll(java.util.Map)>->[-1, -1]
+<org.apache.commons.collections.keyvalue.TiedMapEntry: java.lang.Object getValue()>->[-1, -1]
+<org.apache.commons.collections.map.Flat3Map: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PredicateTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 30 ---
+<org.apache.commons.collections.map.CaseInsensitiveMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.map.AbstractHashedMap: void doReadObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.map.AbstractHashedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.AbstractHashedMap: boolean isEqualKey(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PredicateTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 31 ---
+<org.apache.commons.collections.map.LinkedMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.map.AbstractHashedMap: void doReadObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.map.AbstractHashedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.AbstractHashedMap: boolean isEqualKey(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PredicateTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 32 ---
+<org.apache.commons.collections.map.HashedMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.map.AbstractHashedMap: void doReadObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.map.AbstractHashedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.AbstractHashedMap: boolean isEqualKey(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PredicateTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 33 ---
+<org.apache.commons.collections.map.IdentityMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.map.AbstractHashedMap: void doReadObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.map.AbstractHashedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.AbstractHashedMap: boolean isEqualKey(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PredicateTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #2: newTransformer                                     ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<java.util.PropertyPermissionCollection: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.map.MultiValueMap: void putAll(java.util.Map)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 2 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.keyvalue.TiedMapEntry: java.lang.Object setValue(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 3 ---
+<org.apache.commons.collections.bidimap.DualTreeBidiMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.bidimap.AbstractDualBidiMap: void putAll(java.util.Map)>->[-1, -1]
+<org.apache.commons.collections.bidimap.AbstractDualBidiMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 4 ---
+<org.apache.commons.collections.bidimap.DualHashBidiMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.bidimap.AbstractDualBidiMap: void putAll(java.util.Map)>->[-1, -1]
+<org.apache.commons.collections.bidimap.AbstractDualBidiMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 5 ---
+<java.net.SocketPermissionCollection: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.collection.PredicatedCollection: boolean addAll(java.util.Collection)>->[-1, -1]
+<org.apache.commons.collections.set.MapBackedSet: boolean addAll(java.util.Collection)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 6 ---
+<java.io.FilePermissionCollection: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.collection.PredicatedCollection: boolean addAll(java.util.Collection)>->[-1, -1]
+<org.apache.commons.collections.set.MapBackedSet: boolean addAll(java.util.Collection)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 7 ---
+<javax.swing.tree.DefaultTreeSelectionModel: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 8 ---
+<javax.swing.JTree: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 9 ---
+<javax.swing.JMenuBar: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 10 ---
+<javax.swing.JPopupMenu: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 11 ---
+<javax.swing.tree.DefaultMutableTreeNode: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 12 ---
+<javax.swing.JOptionPane: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 13 ---
+<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 14 ---
+<javax.swing.tree.DefaultTreeModel: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 15 ---
+<javax.swing.tree.DefaultTreeCellEditor: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 16 ---
+<org.apache.commons.collections.MultiHashMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.keyvalue.TiedMapEntry: java.lang.Object getValue()>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 17 ---
+<java.beans.VetoableChangeSupport: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.keyvalue.TiedMapEntry: java.lang.Object getValue()>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 18 ---
+<java.beans.PropertyChangeSupport: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.keyvalue.TiedMapEntry: java.lang.Object getValue()>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.PredicatedMap: void validate(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 19 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.map.ListOrderedMap$ListOrderedMapEntry: java.lang.Object getValue()>->[-1, -1]
+<org.apache.commons.collections.map.AbstractMapDecorator: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PredicateTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 20 ---
+<org.apache.commons.collections.map.Flat3Map: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.map.Flat3Map: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PredicateTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 21 ---
+<org.apache.commons.collections.ReferenceMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.ReferenceMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PredicateTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 22 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.keyvalue.TiedMapEntry: java.lang.String toString()>->[-1, -1]
+<org.apache.commons.collections.keyvalue.TiedMapEntry: java.lang.Object getValue()>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PredicateTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NonePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 23 ---
+<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.bag.AbstractMapBag: int hashCode()>->[-1, -1]
+<org.apache.commons.collections.keyvalue.TiedMapEntry: java.lang.Object getValue()>->[-1, -1]
+<org.apache.commons.collections.map.DefaultedMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.ClosureTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.WhileClosure: void execute(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 24 ---
+<java.text.DateFormat$Field: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.InstantiateTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])>->[-1, -1]
+<org.apache.commons.collections.collection.PredicatedCollection: void <init>(java.util.Collection,org.apache.commons.collections.Predicate)>->[-1, -1]
+<org.apache.commons.collections.collection.PredicatedCollection: void validate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 25 ---
+<java.text.NumberFormat$Field: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.InstantiateTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])>->[-1, -1]
+<org.apache.commons.collections.collection.PredicatedCollection: void <init>(java.util.Collection,org.apache.commons.collections.Predicate)>->[-1, -1]
+<org.apache.commons.collections.collection.PredicatedCollection: void validate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 26 ---
+<java.text.AttributedCharacterIterator$Attribute: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.InstantiateTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])>->[-1, -1]
+<org.apache.commons.collections.collection.PredicatedCollection: void <init>(java.util.Collection,org.apache.commons.collections.Predicate)>->[-1, -1]
+<org.apache.commons.collections.collection.PredicatedCollection: void validate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.NullIsFalsePredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 27 ---
+<java.util.PropertyPermissionCollection: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.map.StaticBucketMap: void putAll(java.util.Map)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PredicateTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformedPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.ClosureTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.WhileClosure: void execute(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 28 ---
+<org.apache.commons.collections.bidimap.DualTreeBidiMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.bidimap.AbstractDualBidiMap: void putAll(java.util.Map)>->[-1, -1]
+<org.apache.commons.collections.keyvalue.TiedMapEntry: java.lang.Object getValue()>->[-1, -1]
+<org.apache.commons.collections.map.Flat3Map: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PredicateTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 29 ---
+<org.apache.commons.collections.bidimap.DualHashBidiMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.bidimap.AbstractDualBidiMap: void putAll(java.util.Map)>->[-1, -1]
+<org.apache.commons.collections.keyvalue.TiedMapEntry: java.lang.Object getValue()>->[-1, -1]
+<org.apache.commons.collections.map.Flat3Map: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PredicateTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 30 ---
+<org.apache.commons.collections.map.CaseInsensitiveMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.map.AbstractHashedMap: void doReadObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.map.AbstractHashedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.AbstractHashedMap: boolean isEqualKey(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PredicateTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 31 ---
+<org.apache.commons.collections.map.LinkedMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.map.AbstractHashedMap: void doReadObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.map.AbstractHashedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.AbstractHashedMap: boolean isEqualKey(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PredicateTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 32 ---
+<org.apache.commons.collections.map.HashedMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.map.AbstractHashedMap: void doReadObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.map.AbstractHashedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.AbstractHashedMap: boolean isEqualKey(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PredicateTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 33 ---
+<org.apache.commons.collections.map.IdentityMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.map.AbstractHashedMap: void doReadObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.commons.collections.map.AbstractHashedMap: java.lang.Object put(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.AbstractHashedMap: boolean isEqualKey(java.lang.Object,java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.FastTreeMap: boolean equals(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.map.LazyMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PredicateTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.TransformerPredicate: boolean evaluate(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.SwitchTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.FactoryTransformer: java.lang.Object transform(java.lang.Object)>->[-1, -1]
+<org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: java.lang.Object create()>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+

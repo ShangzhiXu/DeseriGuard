@@ -1,0 +1,36 @@
+═══════════════════════════════════════════════════════════════
+  分析统计信息
+═══════════════════════════════════════════════════════════════
+分析类数量: 9553
+分析方法数量: 91709
+调用图节点数: 15378
+调用图边数: 145414
+═══════════════════════════════════════════════════════════════
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #1: lookup                                             ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<org.jboss.as.connector.subsystems.datasources.WildFlyDataSource: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #2: getByName                                          ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+
+
+═══════════════════════════════════════════════════════════════
+  总计: 2 条链
+═══════════════════════════════════════════════════════════════

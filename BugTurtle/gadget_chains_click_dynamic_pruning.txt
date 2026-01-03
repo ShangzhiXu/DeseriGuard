@@ -1,0 +1,1308 @@
+═══════════════════════════════════════════════════════════════
+  分析统计信息
+═══════════════════════════════════════════════════════════════
+分析类数量: 9021
+分析方法数量: 88711
+调用图节点数: 24959
+调用图边数: 215832
+═══════════════════════════════════════════════════════════════
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #1: lookup                                             ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<java.text.DateFormat$Field: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(javax.naming.Name)>
+
+--- 链 2 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(javax.naming.Name)>
+
+--- 链 3 ---
+<java.text.NumberFormat$Field: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(javax.naming.Name)>
+
+--- 链 4 ---
+<java.text.AttributedCharacterIterator$Attribute: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(javax.naming.Name)>
+
+--- 链 5 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.ErrorReport: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(javax.naming.Name)>
+
+--- 链 6 ---
+<java.util.Collections$SetFromMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.SessionMap: java.util.Set keySet()>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(javax.naming.Name)>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #2: openConnection                                     ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<java.text.DateFormat$Field: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.net.URL: java.net.URLConnection openConnection()>
+
+--- 链 2 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.net.URL: java.net.URLConnection openConnection()>
+
+--- 链 3 ---
+<java.text.NumberFormat$Field: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.net.URL: java.net.URLConnection openConnection()>
+
+--- 链 4 ---
+<java.text.AttributedCharacterIterator$Attribute: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.net.URL: java.net.URLConnection openConnection()>
+
+--- 链 5 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.ErrorReport: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.net.URL: java.net.URLConnection openConnection()>
+
+--- 链 6 ---
+<java.util.Collections$SetFromMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.SessionMap: java.util.Set keySet()>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.net.URL: java.net.URLConnection openConnection()>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #3: write                                              ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<java.text.DateFormat$Field: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.io.FileOutputStream: void write(byte[])>
+
+--- 链 2 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.io.FileOutputStream: void write(byte[])>
+
+--- 链 3 ---
+<java.text.NumberFormat$Field: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.io.FileOutputStream: void write(byte[])>
+
+--- 链 4 ---
+<java.text.AttributedCharacterIterator$Attribute: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.io.FileOutputStream: void write(byte[])>
+
+--- 链 5 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.ErrorReport: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.io.FileOutputStream: void write(byte[])>
+
+--- 链 6 ---
+<java.util.Collections$SetFromMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.SessionMap: java.util.Set keySet()>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.io.FileOutputStream: void write(byte[])>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #4: forName                                            ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.ClickUtils: java.lang.Class classForName(java.lang.String)>->[-1, -1]
+<java.lang.Class: java.lang.Class forName(java.lang.String,boolean,java.lang.ClassLoader)>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #5: loadClass                                          ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.ContainerUtils: java.lang.Object invokeGetter(java.lang.reflect.Method,java.lang.Object,java.lang.String,java.lang.String)>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 2 ---
+<java.text.DateFormat$Field: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 3 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 4 ---
+<java.text.NumberFormat$Field: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 5 ---
+<java.text.AttributedCharacterIterator$Attribute: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 6 ---
+<java.util.Collections$SetFromMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.SessionMap: java.util.Set keySet()>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #6: newTransformer                                     ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #7: exec                                               ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.ContainerUtils: java.lang.Object invokeGetter(java.lang.reflect.Method,java.lang.Object,java.lang.String,java.lang.String)>->[-1, -1]
+<java.lang.Runtime: java.lang.Process exec(java.lang.String[])>
+
+--- 链 2 ---
+<java.text.DateFormat$Field: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.lang.Runtime: java.lang.Process exec(java.lang.String[])>
+
+--- 链 3 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.lang.Runtime: java.lang.Process exec(java.lang.String[])>
+
+--- 链 4 ---
+<java.text.NumberFormat$Field: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.lang.Runtime: java.lang.Process exec(java.lang.String[])>
+
+--- 链 5 ---
+<java.text.AttributedCharacterIterator$Attribute: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.lang.Runtime: java.lang.Process exec(java.lang.String[])>
+
+--- 链 6 ---
+<java.util.Collections$SetFromMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.SessionMap: java.util.Set keySet()>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.lang.Runtime: java.lang.Process exec(java.lang.String[])>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #8: getOutputProperties                                ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: java.util.Properties getOutputProperties()>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #9: start                                              ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<java.text.DateFormat$Field: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.lang.ProcessBuilder: java.lang.Process start()>
+
+--- 链 2 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.lang.ProcessBuilder: java.lang.Process start()>
+
+--- 链 3 ---
+<java.text.NumberFormat$Field: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.lang.ProcessBuilder: java.lang.Process start()>
+
+--- 链 4 ---
+<java.text.AttributedCharacterIterator$Attribute: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.lang.ProcessBuilder: java.lang.Process start()>
+
+--- 链 5 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.ErrorReport: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.lang.ProcessBuilder: java.lang.Process start()>
+
+--- 链 6 ---
+<java.util.Collections$SetFromMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.SessionMap: java.util.Set keySet()>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.lang.ProcessBuilder: java.lang.Process start()>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #10: getByName                                         ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.SessionMap$Entry: int hashCode()>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #11: lookup                                            ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<java.text.DateFormat$Field: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)>
+
+--- 链 2 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)>
+
+--- 链 3 ---
+<java.text.NumberFormat$Field: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)>
+
+--- 链 4 ---
+<java.text.AttributedCharacterIterator$Attribute: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)>
+
+--- 链 5 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.ErrorReport: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)>
+
+--- 链 6 ---
+<java.util.Collections$SetFromMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.SessionMap: java.util.Set keySet()>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #12: newInstance                                       ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<java.text.DateFormat$Field: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.lang.Class: java.lang.Object newInstance()>
+
+--- 链 2 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.lang.Class: java.lang.Object newInstance()>
+
+--- 链 3 ---
+<java.text.NumberFormat$Field: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.lang.Class: java.lang.Object newInstance()>
+
+--- 链 4 ---
+<java.text.AttributedCharacterIterator$Attribute: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.lang.Class: java.lang.Object newInstance()>
+
+--- 链 5 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.ErrorReport: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.lang.Class: java.lang.Object newInstance()>
+
+--- 链 6 ---
+<java.util.Collections$SetFromMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.SessionMap: java.util.Set keySet()>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.lang.Class: java.lang.Object newInstance()>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #13: newTransformer                                    ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<java.text.DateFormat$Field: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 2 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 3 ---
+<java.text.NumberFormat$Field: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 4 ---
+<java.text.AttributedCharacterIterator$Attribute: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 5 ---
+<java.util.Collections$SetFromMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.SessionMap: java.util.Set keySet()>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #14: getOutputProperties                               ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<java.text.DateFormat$Field: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: java.util.Properties getOutputProperties()>
+
+--- 链 2 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: java.util.Properties getOutputProperties()>
+
+--- 链 3 ---
+<java.text.NumberFormat$Field: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: java.util.Properties getOutputProperties()>
+
+--- 链 4 ---
+<java.text.AttributedCharacterIterator$Attribute: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: java.util.Properties getOutputProperties()>
+
+--- 链 5 ---
+<java.util.Collections$SetFromMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.SessionMap: java.util.Set keySet()>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: java.util.Properties getOutputProperties()>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #15: listen                                            ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<java.text.DateFormat$Field: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<sun.rmi.transport.tcp.TCPTransport: void listen()>
+
+--- 链 2 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<sun.rmi.transport.tcp.TCPTransport: void listen()>
+
+--- 链 3 ---
+<java.text.NumberFormat$Field: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<sun.rmi.transport.tcp.TCPTransport: void listen()>
+
+--- 链 4 ---
+<java.text.AttributedCharacterIterator$Attribute: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<sun.rmi.transport.tcp.TCPTransport: void listen()>
+
+--- 链 5 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.ErrorReport: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<sun.rmi.transport.tcp.TCPTransport: void listen()>
+
+--- 链 6 ---
+<java.util.Collections$SetFromMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.SessionMap: java.util.Set keySet()>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<sun.rmi.transport.tcp.TCPTransport: void listen()>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #16: exec                                              ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<java.text.DateFormat$Field: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.lang.Runtime: java.lang.Process exec(java.lang.String)>
+
+--- 链 2 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.lang.Runtime: java.lang.Process exec(java.lang.String)>
+
+--- 链 3 ---
+<java.text.NumberFormat$Field: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.lang.Runtime: java.lang.Process exec(java.lang.String)>
+
+--- 链 4 ---
+<java.text.AttributedCharacterIterator$Attribute: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.lang.Runtime: java.lang.Process exec(java.lang.String)>
+
+--- 链 5 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.ErrorReport: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.lang.Runtime: java.lang.Process exec(java.lang.String)>
+
+--- 链 6 ---
+<java.util.Collections$SetFromMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.SessionMap: java.util.Set keySet()>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.lang.Runtime: java.lang.Process exec(java.lang.String)>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #17: delete                                            ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<java.text.DateFormat$Field: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.io.File: boolean delete()>
+
+--- 链 2 ---
+<sun.reflect.'annotation'.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.io.File: boolean delete()>
+
+--- 链 3 ---
+<java.text.NumberFormat$Field: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.io.File: boolean delete()>
+
+--- 链 4 ---
+<java.text.AttributedCharacterIterator$Attribute: java.lang.Object readResolve()>->[-1, -1]
+<org.apache.click.util.SessionMap: java.lang.Object get(java.lang.Object)>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.io.File: boolean delete()>
+
+--- 链 5 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.ErrorReport: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.io.File: boolean delete()>
+
+--- 链 6 ---
+<java.util.Collections$SetFromMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.apache.click.util.SessionMap: java.util.Set keySet()>->[-1, -1]
+<org.apache.click.control.FieldSet: java.lang.String toString()>->[-1, -1]
+<org.apache.click.control.FieldSet: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.FieldSet: void renderFields(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void render(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRows(org.apache.click.util.HtmlStringBuffer)>->[-1, -1]
+<org.apache.click.control.Table: void renderBodyRowColumns(org.apache.click.util.HtmlStringBuffer,int)>->[-1, -1]
+<org.apache.click.control.Column: void renderTableData(java.lang.Object,org.apache.click.util.HtmlStringBuffer,org.apache.click.Context,int)>->[-1, -1]
+<org.apache.click.control.Column: java.lang.Object getProperty(java.lang.String,java.lang.Object)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<org.apache.click.util.PropertyUtils: java.lang.Object getObjectPropertyValue(java.lang.Object,java.lang.String,java.util.Map)>->[-1, -1]
+<java.io.File: boolean delete()>
+
+
+
+═══════════════════════════════════════════════════════════════
+  总计: 80 条链
+═══════════════════════════════════════════════════════════════

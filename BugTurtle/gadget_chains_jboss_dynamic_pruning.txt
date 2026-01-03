@@ -1,0 +1,96 @@
+═══════════════════════════════════════════════════════════════
+  分析统计信息
+═══════════════════════════════════════════════════════════════
+分析类数量: 8877
+分析方法数量: 86571
+调用图节点数: 15160
+调用图边数: 133434
+═══════════════════════════════════════════════════════════════
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #1: lookup                                             ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<org.jboss.interceptor.proxy.InterceptorMethodHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.jboss.interceptor.proxy.InterceptorMethodHandler: java.lang.Object executeInterception(java.lang.Object,java.lang.reflect.Method,java.lang.reflect.Method,java.lang.Object[],org.jboss.interceptor.spi.model.InterceptionType)>->[-1, -1]
+<org.jboss.interceptor.proxy.SimpleInterceptionChain: java.lang.Object invokeNextInterceptor(javax.interceptor.InvocationContext)>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #2: getByName                                          ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #3: exec                                               ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<org.jboss.interceptor.proxy.InterceptorMethodHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.jboss.interceptor.proxy.InterceptorMethodHandler: java.lang.Object executeInterception(java.lang.Object,java.lang.reflect.Method,java.lang.reflect.Method,java.lang.Object[],org.jboss.interceptor.spi.model.InterceptionType)>->[-1, -1]
+<org.jboss.interceptor.proxy.SimpleInterceptionChain: java.lang.Object invokeNextInterceptor(javax.interceptor.InvocationContext)>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.Runtime: java.lang.Process exec(java.lang.String)>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #4: loadClass                                          ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<org.jboss.interceptor.proxy.InterceptorMethodHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.jboss.interceptor.proxy.InterceptorMethodHandler: java.lang.Object executeInterception(java.lang.Object,java.lang.reflect.Method,java.lang.reflect.Method,java.lang.Object[],org.jboss.interceptor.spi.model.InterceptionType)>->[-1, -1]
+<org.jboss.interceptor.proxy.SimpleInterceptionChain: java.lang.Object invokeNextInterceptor(javax.interceptor.InvocationContext)>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 2 ---
+<org.jboss.interceptor.builder.MethodReference$MethodHolderSerializationProxy: java.lang.Object readResolve()>->[-1, -1]
+<org.jboss.interceptor.util.ReflectionUtils: java.lang.Class classForName(java.lang.String)>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #5: exec                                               ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<org.jboss.interceptor.proxy.InterceptorMethodHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.jboss.interceptor.proxy.InterceptorMethodHandler: java.lang.Object executeInterception(java.lang.Object,java.lang.reflect.Method,java.lang.reflect.Method,java.lang.Object[],org.jboss.interceptor.spi.model.InterceptionType)>->[-1, -1]
+<org.jboss.interceptor.proxy.SimpleInterceptionChain: java.lang.Object invokeNextInterceptor(javax.interceptor.InvocationContext)>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.Runtime: java.lang.Process exec(java.lang.String[])>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #6: lookup                                             ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<org.jboss.interceptor.proxy.InterceptorMethodHandler: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.jboss.interceptor.proxy.InterceptorMethodHandler: java.lang.Object executeInterception(java.lang.Object,java.lang.reflect.Method,java.lang.reflect.Method,java.lang.Object[],org.jboss.interceptor.spi.model.InterceptionType)>->[-1, -1]
+<org.jboss.interceptor.proxy.SimpleInterceptionChain: java.lang.Object invokeNextInterceptor(javax.interceptor.InvocationContext)>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(javax.naming.Name)>
+
+
+
+═══════════════════════════════════════════════════════════════
+  总计: 7 条链
+═══════════════════════════════════════════════════════════════

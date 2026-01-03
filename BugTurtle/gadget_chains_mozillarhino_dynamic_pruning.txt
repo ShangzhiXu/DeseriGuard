@@ -1,0 +1,1722 @@
+═══════════════════════════════════════════════════════════════
+  分析统计信息
+═══════════════════════════════════════════════════════════════
+分析类数量: 9145
+分析方法数量: 90433
+调用图节点数: 26518
+调用图边数: 223334
+═══════════════════════════════════════════════════════════════
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #1: loadClass                                          ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaPackage: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaPackage: java.lang.Object getPkgProperty(java.lang.String,org.mozilla.javascript.Scriptable,boolean)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.IdScriptableObject: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: void put(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 2 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object execSub(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,java.lang.Object[],int)>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object executeRegExp(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.regexp.RegExpImpl,java.lang.String,int[],int)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: void put(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 3 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Object readAdapterObject(org.mozilla.javascript.Scriptable,java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Class getAdapterClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class[],org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: org.mozilla.javascript.ObjToIntMap getObjectFunctionNames(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: int toInt32(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: double toNumber(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: org.mozilla.javascript.Scriptable construct(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 4 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: void initMembers()>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.util.Map getFieldAndMethodsObjects(org.mozilla.javascript.Scriptable,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.FieldAndMethods: void <init>(org.mozilla.javascript.Scriptable,org.mozilla.javascript.MemberBox[],java.lang.reflect.Field)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getFunctionPrototype(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeWith: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 5 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Object readAdapterObject(org.mozilla.javascript.Scriptable,java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Class getAdapterClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class[],org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: org.mozilla.javascript.ObjToIntMap getObjectFunctionNames(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object[] getPropertyIds(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: org.mozilla.javascript.Scriptable getPrototype()>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 6 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: void initMembers()>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: org.mozilla.javascript.JavaMembers lookupClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class,boolean)>->[-1, -1]
+<org.mozilla.javascript.ClassCache: org.mozilla.javascript.ClassCache get(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getTopScopeValue(org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: org.mozilla.javascript.Scriptable getPrototype()>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 7 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String ecmaToString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String toXMLString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlNode: java.lang.String ecmaToXMLString(org.mozilla.javascript.xmlimpl.XmlProcessor)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlProcessor: java.lang.String ecmaToXmlString(org.w3c.dom.Node)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlProcessor: java.lang.String escapeAttributeValue(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 8 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.InterpretedFunction: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.Interpreter: java.lang.Object interpret(org.mozilla.javascript.InterpretedFunction,org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.Interpreter: java.lang.Object interpretLoop(org.mozilla.javascript.Context,org.mozilla.javascript.Interpreter$CallFrame,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: org.mozilla.javascript.Scriptable newCatchScope(java.lang.Throwable,org.mozilla.javascript.Scriptable,java.lang.String,org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.WrappedException: void <init>(java.lang.Throwable)>->[-1, -1]
+<org.mozilla.javascript.Kit: java.lang.RuntimeException initCause(java.lang.RuntimeException,java.lang.Throwable)>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 9 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Object readAdapterObject(org.mozilla.javascript.Scriptable,java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Class getAdapterClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class[],org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: org.mozilla.javascript.ObjToIntMap getObjectFunctionNames(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaPackage: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaPackage: java.lang.Object getPkgProperty(java.lang.String,org.mozilla.javascript.Scriptable,boolean)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: void setObjectProtoAndParent(org.mozilla.javascript.ScriptableObject,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: java.lang.Class findNestedClass(java.lang.Class,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.Kit: java.lang.Class classOrNull(java.lang.ClassLoader,java.lang.String)>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 10 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaPackage: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaPackage: java.lang.Object getPkgProperty(java.lang.String,org.mozilla.javascript.Scriptable,boolean)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: void setObjectProtoAndParent(org.mozilla.javascript.ScriptableObject,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: java.lang.Class findNestedClass(java.lang.Class,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.Kit: java.lang.Class classOrNull(java.lang.ClassLoader,java.lang.String)>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 11 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: org.mozilla.javascript.Scriptable getPrototype()>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: java.lang.Class findNestedClass(java.lang.Class,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.Kit: java.lang.Class classOrNull(java.lang.ClassLoader,java.lang.String)>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 12 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: void initMembers()>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: org.mozilla.javascript.JavaMembers lookupClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class,boolean)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: void <init>(org.mozilla.javascript.Scriptable,java.lang.Class,boolean)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: void reflect(org.mozilla.javascript.Scriptable,boolean)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: void setFunctionProtoAndParent(org.mozilla.javascript.BaseFunction,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getFunctionPrototype(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: java.lang.Class findNestedClass(java.lang.Class,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.Kit: java.lang.Class classOrNull(java.lang.ClassLoader,java.lang.String)>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+--- 链 13 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Object readAdapterObject(org.mozilla.javascript.Scriptable,java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Class getAdapterClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class[],org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ClassCache: org.mozilla.javascript.ClassCache get(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getTopScopeValue(org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.IdFunctionObject: org.mozilla.javascript.Scriptable getPrototype()>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getFunctionPrototype(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: java.lang.Class findNestedClass(java.lang.Class,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.Kit: java.lang.Class classOrNull(java.lang.ClassLoader,java.lang.String)>->[-1, -1]
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #2: write                                              ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaPackage: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaPackage: java.lang.Object getPkgProperty(java.lang.String,org.mozilla.javascript.Scriptable,boolean)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.IdScriptableObject: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: void put(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.io.FileOutputStream: void write(byte[])>
+
+--- 链 2 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object execSub(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,java.lang.Object[],int)>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object executeRegExp(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.regexp.RegExpImpl,java.lang.String,int[],int)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: void put(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.io.FileOutputStream: void write(byte[])>
+
+--- 链 3 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Object readAdapterObject(org.mozilla.javascript.Scriptable,java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Class getAdapterClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class[],org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: org.mozilla.javascript.ObjToIntMap getObjectFunctionNames(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: int toInt32(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: double toNumber(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: org.mozilla.javascript.Scriptable construct(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.io.FileOutputStream: void write(byte[])>
+
+--- 链 4 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: void initMembers()>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.util.Map getFieldAndMethodsObjects(org.mozilla.javascript.Scriptable,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.FieldAndMethods: void <init>(org.mozilla.javascript.Scriptable,org.mozilla.javascript.MemberBox[],java.lang.reflect.Field)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getFunctionPrototype(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeWith: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.io.FileOutputStream: void write(byte[])>
+
+--- 链 5 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Object readAdapterObject(org.mozilla.javascript.Scriptable,java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Class getAdapterClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class[],org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: org.mozilla.javascript.ObjToIntMap getObjectFunctionNames(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object[] getPropertyIds(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: org.mozilla.javascript.Scriptable getPrototype()>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.io.FileOutputStream: void write(byte[])>
+
+--- 链 6 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: void initMembers()>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: org.mozilla.javascript.JavaMembers lookupClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class,boolean)>->[-1, -1]
+<org.mozilla.javascript.ClassCache: org.mozilla.javascript.ClassCache get(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getTopScopeValue(org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: org.mozilla.javascript.Scriptable getPrototype()>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.io.FileOutputStream: void write(byte[])>
+
+--- 链 7 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String ecmaToString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String toXMLString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlNode: java.lang.String ecmaToXMLString(org.mozilla.javascript.xmlimpl.XmlProcessor)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlProcessor: java.lang.String ecmaToXmlString(org.w3c.dom.Node)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlProcessor: java.lang.String escapeAttributeValue(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.io.FileOutputStream: void write(byte[])>
+
+--- 链 8 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.InterpretedFunction: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.Interpreter: java.lang.Object interpret(org.mozilla.javascript.InterpretedFunction,org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.Interpreter: java.lang.Object interpretLoop(org.mozilla.javascript.Context,org.mozilla.javascript.Interpreter$CallFrame,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: org.mozilla.javascript.Scriptable newCatchScope(java.lang.Throwable,org.mozilla.javascript.Scriptable,java.lang.String,org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.WrappedException: void <init>(java.lang.Throwable)>->[-1, -1]
+<org.mozilla.javascript.Kit: java.lang.RuntimeException initCause(java.lang.RuntimeException,java.lang.Throwable)>->[-1, -1]
+<java.io.FileOutputStream: void write(byte[])>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #3: start                                              ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaPackage: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaPackage: java.lang.Object getPkgProperty(java.lang.String,org.mozilla.javascript.Scriptable,boolean)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.IdScriptableObject: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: void put(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ProcessBuilder: java.lang.Process start()>
+
+--- 链 2 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object execSub(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,java.lang.Object[],int)>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object executeRegExp(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.regexp.RegExpImpl,java.lang.String,int[],int)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: void put(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ProcessBuilder: java.lang.Process start()>
+
+--- 链 3 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Object readAdapterObject(org.mozilla.javascript.Scriptable,java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Class getAdapterClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class[],org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: org.mozilla.javascript.ObjToIntMap getObjectFunctionNames(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: int toInt32(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: double toNumber(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: org.mozilla.javascript.Scriptable construct(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ProcessBuilder: java.lang.Process start()>
+
+--- 链 4 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: void initMembers()>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.util.Map getFieldAndMethodsObjects(org.mozilla.javascript.Scriptable,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.FieldAndMethods: void <init>(org.mozilla.javascript.Scriptable,org.mozilla.javascript.MemberBox[],java.lang.reflect.Field)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getFunctionPrototype(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeWith: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ProcessBuilder: java.lang.Process start()>
+
+--- 链 5 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Object readAdapterObject(org.mozilla.javascript.Scriptable,java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Class getAdapterClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class[],org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: org.mozilla.javascript.ObjToIntMap getObjectFunctionNames(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object[] getPropertyIds(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: org.mozilla.javascript.Scriptable getPrototype()>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ProcessBuilder: java.lang.Process start()>
+
+--- 链 6 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: void initMembers()>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: org.mozilla.javascript.JavaMembers lookupClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class,boolean)>->[-1, -1]
+<org.mozilla.javascript.ClassCache: org.mozilla.javascript.ClassCache get(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getTopScopeValue(org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: org.mozilla.javascript.Scriptable getPrototype()>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ProcessBuilder: java.lang.Process start()>
+
+--- 链 7 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String ecmaToString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String toXMLString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlNode: java.lang.String ecmaToXMLString(org.mozilla.javascript.xmlimpl.XmlProcessor)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlProcessor: java.lang.String ecmaToXmlString(org.w3c.dom.Node)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlProcessor: java.lang.String escapeAttributeValue(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ProcessBuilder: java.lang.Process start()>
+
+--- 链 8 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: long toInteger(java.lang.Object,java.lang.Class,double,double)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: double toDouble(java.lang.Object)>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.ProcessBuilder: java.lang.Process start()>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #4: getByName                                          ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.Kit$ComplexKey: int hashCode()>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+--- 链 2 ---
+<org.mozilla.javascript.ObjToIntMap: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.Kit$ComplexKey: int hashCode()>->[-1, -1]
+<java.net.URL: int hashCode()>->[-1, -1]
+<java.net.URLStreamHandler: int hashCode(java.net.URL)>->[-1, -1]
+<java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>->[-1, -1]
+<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #5: newTransformer                                     ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaPackage: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaPackage: java.lang.Object getPkgProperty(java.lang.String,org.mozilla.javascript.Scriptable,boolean)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.IdScriptableObject: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: void put(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 2 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object execSub(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,java.lang.Object[],int)>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object executeRegExp(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.regexp.RegExpImpl,java.lang.String,int[],int)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: void put(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 3 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Object readAdapterObject(org.mozilla.javascript.Scriptable,java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Class getAdapterClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class[],org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: org.mozilla.javascript.ObjToIntMap getObjectFunctionNames(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: int toInt32(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: double toNumber(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: org.mozilla.javascript.Scriptable construct(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 4 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: void initMembers()>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.util.Map getFieldAndMethodsObjects(org.mozilla.javascript.Scriptable,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.FieldAndMethods: void <init>(org.mozilla.javascript.Scriptable,org.mozilla.javascript.MemberBox[],java.lang.reflect.Field)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getFunctionPrototype(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeWith: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 5 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Object readAdapterObject(org.mozilla.javascript.Scriptable,java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Class getAdapterClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class[],org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: org.mozilla.javascript.ObjToIntMap getObjectFunctionNames(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object[] getPropertyIds(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: org.mozilla.javascript.Scriptable getPrototype()>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 6 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: void initMembers()>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: org.mozilla.javascript.JavaMembers lookupClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class,boolean)>->[-1, -1]
+<org.mozilla.javascript.ClassCache: org.mozilla.javascript.ClassCache get(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getTopScopeValue(org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: org.mozilla.javascript.Scriptable getPrototype()>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 7 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String ecmaToString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String toXMLString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlNode: java.lang.String ecmaToXMLString(org.mozilla.javascript.xmlimpl.XmlProcessor)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlProcessor: java.lang.String ecmaToXmlString(org.w3c.dom.Node)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlProcessor: java.lang.String escapeAttributeValue(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+--- 链 8 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: long toInteger(java.lang.Object,java.lang.Class,double,double)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: double toDouble(java.lang.Object)>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #6: openConnection                                     ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaPackage: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaPackage: java.lang.Object getPkgProperty(java.lang.String,org.mozilla.javascript.Scriptable,boolean)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.IdScriptableObject: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: void put(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.net.URL: java.net.URLConnection openConnection()>
+
+--- 链 2 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object execSub(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,java.lang.Object[],int)>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object executeRegExp(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.regexp.RegExpImpl,java.lang.String,int[],int)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: void put(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.net.URL: java.net.URLConnection openConnection()>
+
+--- 链 3 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Object readAdapterObject(org.mozilla.javascript.Scriptable,java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Class getAdapterClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class[],org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: org.mozilla.javascript.ObjToIntMap getObjectFunctionNames(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: int toInt32(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: double toNumber(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: org.mozilla.javascript.Scriptable construct(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.net.URL: java.net.URLConnection openConnection()>
+
+--- 链 4 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: void initMembers()>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.util.Map getFieldAndMethodsObjects(org.mozilla.javascript.Scriptable,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.FieldAndMethods: void <init>(org.mozilla.javascript.Scriptable,org.mozilla.javascript.MemberBox[],java.lang.reflect.Field)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getFunctionPrototype(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeWith: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.net.URL: java.net.URLConnection openConnection()>
+
+--- 链 5 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Object readAdapterObject(org.mozilla.javascript.Scriptable,java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Class getAdapterClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class[],org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: org.mozilla.javascript.ObjToIntMap getObjectFunctionNames(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object[] getPropertyIds(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: org.mozilla.javascript.Scriptable getPrototype()>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.net.URL: java.net.URLConnection openConnection()>
+
+--- 链 6 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: void initMembers()>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: org.mozilla.javascript.JavaMembers lookupClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class,boolean)>->[-1, -1]
+<org.mozilla.javascript.ClassCache: org.mozilla.javascript.ClassCache get(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getTopScopeValue(org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: org.mozilla.javascript.Scriptable getPrototype()>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.net.URL: java.net.URLConnection openConnection()>
+
+--- 链 7 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String ecmaToString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String toXMLString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlNode: java.lang.String ecmaToXMLString(org.mozilla.javascript.xmlimpl.XmlProcessor)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlProcessor: java.lang.String ecmaToXmlString(org.w3c.dom.Node)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlProcessor: java.lang.String escapeAttributeValue(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.net.URL: java.net.URLConnection openConnection()>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #7: lookup                                             ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaPackage: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaPackage: java.lang.Object getPkgProperty(java.lang.String,org.mozilla.javascript.Scriptable,boolean)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: void put(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.Context: void addContextListener(org.mozilla.javascript.ContextListener)>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(javax.naming.Name)>
+
+--- 链 2 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: org.mozilla.javascript.Scriptable construct(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.Context: void addContextListener(org.mozilla.javascript.ContextListener)>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(javax.naming.Name)>
+
+--- 链 3 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: void initMembers()>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.util.Map getFieldAndMethodsObjects(org.mozilla.javascript.Scriptable,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.FieldAndMethods: void <init>(org.mozilla.javascript.Scriptable,org.mozilla.javascript.MemberBox[],java.lang.reflect.Field)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getFunctionPrototype(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.Context: void addContextListener(org.mozilla.javascript.ContextListener)>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(javax.naming.Name)>
+
+--- 链 4 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Object readAdapterObject(org.mozilla.javascript.Scriptable,java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Class getAdapterClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class[],org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: org.mozilla.javascript.ObjToIntMap getObjectFunctionNames(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object[] getPropertyIds(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: org.mozilla.javascript.Scriptable getPrototype()>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.Context: void addContextListener(org.mozilla.javascript.ContextListener)>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(javax.naming.Name)>
+
+--- 链 5 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: void initMembers()>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: org.mozilla.javascript.JavaMembers lookupClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class,boolean)>->[-1, -1]
+<org.mozilla.javascript.ClassCache: org.mozilla.javascript.ClassCache get(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getTopScopeValue(org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: org.mozilla.javascript.Scriptable getPrototype()>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.Context: void addContextListener(org.mozilla.javascript.ContextListener)>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(javax.naming.Name)>
+
+--- 链 6 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Object readAdapterObject(org.mozilla.javascript.Scriptable,java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Class getAdapterClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class[],org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: org.mozilla.javascript.ObjToIntMap getObjectFunctionNames(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: int toInt32(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: double toNumber(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.Delegator: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.Context: void addContextListener(org.mozilla.javascript.ContextListener)>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(javax.naming.Name)>
+
+--- 链 7 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String ecmaToString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String toXMLString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlNode: java.lang.String ecmaToXMLString(org.mozilla.javascript.xmlimpl.XmlProcessor)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlProcessor: java.lang.String ecmaToXmlString(org.w3c.dom.Node)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlProcessor: java.lang.String escapeAttributeValue(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaMethod: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.Context: void addContextListener(org.mozilla.javascript.ContextListener)>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(javax.naming.Name)>
+
+--- 链 8 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.IdScriptableObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getImpl(java.lang.String,int,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeScript: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.SecurityController$1: java.lang.Object exec(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaMethod: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(javax.naming.Name)>
+
+--- 链 9 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.Interpreter: java.lang.Object interpretLoop(org.mozilla.javascript.Context,org.mozilla.javascript.Interpreter$CallFrame,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: org.mozilla.javascript.Scriptable newCatchScope(java.lang.Throwable,org.mozilla.javascript.Scriptable,java.lang.String,org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.WrappedException: void <init>(java.lang.Throwable)>->[-1, -1]
+<org.mozilla.javascript.Kit: java.lang.RuntimeException initCause(java.lang.RuntimeException,java.lang.Throwable)>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(javax.naming.Name)>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #8: getOutputProperties                                ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaPackage: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaPackage: java.lang.Object getPkgProperty(java.lang.String,org.mozilla.javascript.Scriptable,boolean)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.IdScriptableObject: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: void put(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: java.util.Properties getOutputProperties()>
+
+--- 链 2 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object execSub(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,java.lang.Object[],int)>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object executeRegExp(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.regexp.RegExpImpl,java.lang.String,int[],int)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: void put(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: java.util.Properties getOutputProperties()>
+
+--- 链 3 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Object readAdapterObject(org.mozilla.javascript.Scriptable,java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Class getAdapterClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class[],org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: org.mozilla.javascript.ObjToIntMap getObjectFunctionNames(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: int toInt32(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: double toNumber(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: org.mozilla.javascript.Scriptable construct(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: java.util.Properties getOutputProperties()>
+
+--- 链 4 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: void initMembers()>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.util.Map getFieldAndMethodsObjects(org.mozilla.javascript.Scriptable,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.FieldAndMethods: void <init>(org.mozilla.javascript.Scriptable,org.mozilla.javascript.MemberBox[],java.lang.reflect.Field)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getFunctionPrototype(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeWith: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: java.util.Properties getOutputProperties()>
+
+--- 链 5 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Object readAdapterObject(org.mozilla.javascript.Scriptable,java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Class getAdapterClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class[],org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: org.mozilla.javascript.ObjToIntMap getObjectFunctionNames(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object[] getPropertyIds(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: org.mozilla.javascript.Scriptable getPrototype()>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: java.util.Properties getOutputProperties()>
+
+--- 链 6 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: void initMembers()>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: org.mozilla.javascript.JavaMembers lookupClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class,boolean)>->[-1, -1]
+<org.mozilla.javascript.ClassCache: org.mozilla.javascript.ClassCache get(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getTopScopeValue(org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: org.mozilla.javascript.Scriptable getPrototype()>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: java.util.Properties getOutputProperties()>
+
+--- 链 7 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String ecmaToString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String toXMLString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlNode: java.lang.String ecmaToXMLString(org.mozilla.javascript.xmlimpl.XmlProcessor)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlProcessor: java.lang.String ecmaToXmlString(org.w3c.dom.Node)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlProcessor: java.lang.String escapeAttributeValue(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: java.util.Properties getOutputProperties()>
+
+--- 链 8 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: long toInteger(java.lang.Object,java.lang.Class,double,double)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: double toDouble(java.lang.Object)>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: java.util.Properties getOutputProperties()>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #9: exec                                               ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaPackage: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaPackage: java.lang.Object getPkgProperty(java.lang.String,org.mozilla.javascript.Scriptable,boolean)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.IdScriptableObject: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: void put(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.Runtime: java.lang.Process exec(java.lang.String)>
+
+--- 链 2 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object execSub(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,java.lang.Object[],int)>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object executeRegExp(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.regexp.RegExpImpl,java.lang.String,int[],int)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: void put(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.Runtime: java.lang.Process exec(java.lang.String)>
+
+--- 链 3 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Object readAdapterObject(org.mozilla.javascript.Scriptable,java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Class getAdapterClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class[],org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: org.mozilla.javascript.ObjToIntMap getObjectFunctionNames(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: int toInt32(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: double toNumber(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: org.mozilla.javascript.Scriptable construct(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.Runtime: java.lang.Process exec(java.lang.String)>
+
+--- 链 4 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: void initMembers()>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.util.Map getFieldAndMethodsObjects(org.mozilla.javascript.Scriptable,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.FieldAndMethods: void <init>(org.mozilla.javascript.Scriptable,org.mozilla.javascript.MemberBox[],java.lang.reflect.Field)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getFunctionPrototype(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeWith: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.Runtime: java.lang.Process exec(java.lang.String)>
+
+--- 链 5 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Object readAdapterObject(org.mozilla.javascript.Scriptable,java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Class getAdapterClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class[],org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: org.mozilla.javascript.ObjToIntMap getObjectFunctionNames(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object[] getPropertyIds(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: org.mozilla.javascript.Scriptable getPrototype()>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.Runtime: java.lang.Process exec(java.lang.String)>
+
+--- 链 6 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: void initMembers()>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: org.mozilla.javascript.JavaMembers lookupClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class,boolean)>->[-1, -1]
+<org.mozilla.javascript.ClassCache: org.mozilla.javascript.ClassCache get(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getTopScopeValue(org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: org.mozilla.javascript.Scriptable getPrototype()>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.Runtime: java.lang.Process exec(java.lang.String)>
+
+--- 链 7 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String ecmaToString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String toXMLString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlNode: java.lang.String ecmaToXMLString(org.mozilla.javascript.xmlimpl.XmlProcessor)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlProcessor: java.lang.String ecmaToXmlString(org.w3c.dom.Node)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlProcessor: java.lang.String escapeAttributeValue(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.Runtime: java.lang.Process exec(java.lang.String)>
+
+--- 链 8 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.Runtime: java.lang.Process exec(java.lang.String)>
+
+--- 链 9 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.InterpretedFunction: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.Interpreter: java.lang.Object interpret(org.mozilla.javascript.InterpretedFunction,org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.Interpreter: java.lang.Object interpretLoop(org.mozilla.javascript.Context,org.mozilla.javascript.Interpreter$CallFrame,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: org.mozilla.javascript.Scriptable newCatchScope(java.lang.Throwable,org.mozilla.javascript.Scriptable,java.lang.String,org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.WrappedException: void <init>(java.lang.Throwable)>->[-1, -1]
+<org.mozilla.javascript.Kit: java.lang.RuntimeException initCause(java.lang.RuntimeException,java.lang.Throwable)>->[-1, -1]
+<java.lang.Runtime: java.lang.Process exec(java.lang.String)>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #10: exec                                              ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaPackage: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaPackage: java.lang.Object getPkgProperty(java.lang.String,org.mozilla.javascript.Scriptable,boolean)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.IdScriptableObject: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: void put(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.Runtime: java.lang.Process exec(java.lang.String[])>
+
+--- 链 2 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object execSub(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,java.lang.Object[],int)>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object executeRegExp(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.regexp.RegExpImpl,java.lang.String,int[],int)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: void put(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.Runtime: java.lang.Process exec(java.lang.String[])>
+
+--- 链 3 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Object readAdapterObject(org.mozilla.javascript.Scriptable,java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Class getAdapterClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class[],org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: org.mozilla.javascript.ObjToIntMap getObjectFunctionNames(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: int toInt32(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: double toNumber(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: org.mozilla.javascript.Scriptable construct(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.Runtime: java.lang.Process exec(java.lang.String[])>
+
+--- 链 4 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: void initMembers()>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.util.Map getFieldAndMethodsObjects(org.mozilla.javascript.Scriptable,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.FieldAndMethods: void <init>(org.mozilla.javascript.Scriptable,org.mozilla.javascript.MemberBox[],java.lang.reflect.Field)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getFunctionPrototype(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeWith: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.Runtime: java.lang.Process exec(java.lang.String[])>
+
+--- 链 5 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Object readAdapterObject(org.mozilla.javascript.Scriptable,java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Class getAdapterClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class[],org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: org.mozilla.javascript.ObjToIntMap getObjectFunctionNames(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object[] getPropertyIds(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: org.mozilla.javascript.Scriptable getPrototype()>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.Runtime: java.lang.Process exec(java.lang.String[])>
+
+--- 链 6 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: void initMembers()>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: org.mozilla.javascript.JavaMembers lookupClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class,boolean)>->[-1, -1]
+<org.mozilla.javascript.ClassCache: org.mozilla.javascript.ClassCache get(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getTopScopeValue(org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: org.mozilla.javascript.Scriptable getPrototype()>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.Runtime: java.lang.Process exec(java.lang.String[])>
+
+--- 链 7 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String ecmaToString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String toXMLString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlNode: java.lang.String ecmaToXMLString(org.mozilla.javascript.xmlimpl.XmlProcessor)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlProcessor: java.lang.String ecmaToXmlString(org.w3c.dom.Node)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlProcessor: java.lang.String escapeAttributeValue(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.Runtime: java.lang.Process exec(java.lang.String[])>
+
+--- 链 8 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.InterpretedFunction: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.Interpreter: java.lang.Object interpret(org.mozilla.javascript.InterpretedFunction,org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.Interpreter: java.lang.Object interpretLoop(org.mozilla.javascript.Context,org.mozilla.javascript.Interpreter$CallFrame,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: org.mozilla.javascript.Scriptable newCatchScope(java.lang.Throwable,org.mozilla.javascript.Scriptable,java.lang.String,org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.WrappedException: void <init>(java.lang.Throwable)>->[-1, -1]
+<org.mozilla.javascript.Kit: java.lang.RuntimeException initCause(java.lang.RuntimeException,java.lang.Throwable)>->[-1, -1]
+<java.lang.Runtime: java.lang.Process exec(java.lang.String[])>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #11: listen                                            ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaPackage: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaPackage: java.lang.Object getPkgProperty(java.lang.String,org.mozilla.javascript.Scriptable,boolean)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.IdScriptableObject: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: void put(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<sun.rmi.transport.tcp.TCPTransport: void listen()>
+
+--- 链 2 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object execSub(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,java.lang.Object[],int)>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object executeRegExp(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.regexp.RegExpImpl,java.lang.String,int[],int)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: void put(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<sun.rmi.transport.tcp.TCPTransport: void listen()>
+
+--- 链 3 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Object readAdapterObject(org.mozilla.javascript.Scriptable,java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Class getAdapterClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class[],org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: org.mozilla.javascript.ObjToIntMap getObjectFunctionNames(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: int toInt32(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: double toNumber(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: org.mozilla.javascript.Scriptable construct(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<sun.rmi.transport.tcp.TCPTransport: void listen()>
+
+--- 链 4 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: void initMembers()>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.util.Map getFieldAndMethodsObjects(org.mozilla.javascript.Scriptable,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.FieldAndMethods: void <init>(org.mozilla.javascript.Scriptable,org.mozilla.javascript.MemberBox[],java.lang.reflect.Field)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getFunctionPrototype(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeWith: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<sun.rmi.transport.tcp.TCPTransport: void listen()>
+
+--- 链 5 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Object readAdapterObject(org.mozilla.javascript.Scriptable,java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Class getAdapterClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class[],org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: org.mozilla.javascript.ObjToIntMap getObjectFunctionNames(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object[] getPropertyIds(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: org.mozilla.javascript.Scriptable getPrototype()>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<sun.rmi.transport.tcp.TCPTransport: void listen()>
+
+--- 链 6 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: void initMembers()>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: org.mozilla.javascript.JavaMembers lookupClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class,boolean)>->[-1, -1]
+<org.mozilla.javascript.ClassCache: org.mozilla.javascript.ClassCache get(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getTopScopeValue(org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: org.mozilla.javascript.Scriptable getPrototype()>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<sun.rmi.transport.tcp.TCPTransport: void listen()>
+
+--- 链 7 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String ecmaToString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String toXMLString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlNode: java.lang.String ecmaToXMLString(org.mozilla.javascript.xmlimpl.XmlProcessor)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlProcessor: java.lang.String ecmaToXmlString(org.w3c.dom.Node)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlProcessor: java.lang.String escapeAttributeValue(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<sun.rmi.transport.tcp.TCPTransport: void listen()>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #12: delete                                            ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaPackage: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaPackage: java.lang.Object getPkgProperty(java.lang.String,org.mozilla.javascript.Scriptable,boolean)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.IdScriptableObject: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: void put(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.io.File: boolean delete()>
+
+--- 链 2 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object execSub(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,java.lang.Object[],int)>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object executeRegExp(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.regexp.RegExpImpl,java.lang.String,int[],int)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: void put(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.io.File: boolean delete()>
+
+--- 链 3 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Object readAdapterObject(org.mozilla.javascript.Scriptable,java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Class getAdapterClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class[],org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: org.mozilla.javascript.ObjToIntMap getObjectFunctionNames(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: int toInt32(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: double toNumber(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: org.mozilla.javascript.Scriptable construct(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.io.File: boolean delete()>
+
+--- 链 4 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: void initMembers()>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.util.Map getFieldAndMethodsObjects(org.mozilla.javascript.Scriptable,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.FieldAndMethods: void <init>(org.mozilla.javascript.Scriptable,org.mozilla.javascript.MemberBox[],java.lang.reflect.Field)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getFunctionPrototype(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeWith: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.io.File: boolean delete()>
+
+--- 链 5 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Object readAdapterObject(org.mozilla.javascript.Scriptable,java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Class getAdapterClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class[],org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: org.mozilla.javascript.ObjToIntMap getObjectFunctionNames(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object[] getPropertyIds(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: org.mozilla.javascript.Scriptable getPrototype()>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.io.File: boolean delete()>
+
+--- 链 6 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: void initMembers()>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: org.mozilla.javascript.JavaMembers lookupClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class,boolean)>->[-1, -1]
+<org.mozilla.javascript.ClassCache: org.mozilla.javascript.ClassCache get(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getTopScopeValue(org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: org.mozilla.javascript.Scriptable getPrototype()>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.io.File: boolean delete()>
+
+--- 链 7 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String ecmaToString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String toXMLString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlNode: java.lang.String ecmaToXMLString(org.mozilla.javascript.xmlimpl.XmlProcessor)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlProcessor: java.lang.String ecmaToXmlString(org.w3c.dom.Node)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlProcessor: java.lang.String escapeAttributeValue(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.io.File: boolean delete()>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #13: lookup                                            ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaPackage: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaPackage: java.lang.Object getPkgProperty(java.lang.String,org.mozilla.javascript.Scriptable,boolean)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: void put(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.Context: void addContextListener(org.mozilla.javascript.ContextListener)>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)>
+
+--- 链 2 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: org.mozilla.javascript.Scriptable construct(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.Context: void addContextListener(org.mozilla.javascript.ContextListener)>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)>
+
+--- 链 3 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: void initMembers()>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.util.Map getFieldAndMethodsObjects(org.mozilla.javascript.Scriptable,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.FieldAndMethods: void <init>(org.mozilla.javascript.Scriptable,org.mozilla.javascript.MemberBox[],java.lang.reflect.Field)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getFunctionPrototype(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.Context: void addContextListener(org.mozilla.javascript.ContextListener)>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)>
+
+--- 链 4 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Object readAdapterObject(org.mozilla.javascript.Scriptable,java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Class getAdapterClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class[],org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: org.mozilla.javascript.ObjToIntMap getObjectFunctionNames(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object[] getPropertyIds(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: org.mozilla.javascript.Scriptable getPrototype()>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.Context: void addContextListener(org.mozilla.javascript.ContextListener)>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)>
+
+--- 链 5 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: void initMembers()>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: org.mozilla.javascript.JavaMembers lookupClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class,boolean)>->[-1, -1]
+<org.mozilla.javascript.ClassCache: org.mozilla.javascript.ClassCache get(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getTopScopeValue(org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: org.mozilla.javascript.Scriptable getPrototype()>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.Context: void addContextListener(org.mozilla.javascript.ContextListener)>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)>
+
+--- 链 6 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Object readAdapterObject(org.mozilla.javascript.Scriptable,java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Class getAdapterClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class[],org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: org.mozilla.javascript.ObjToIntMap getObjectFunctionNames(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: int toInt32(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: double toNumber(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.Delegator: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.Context: void addContextListener(org.mozilla.javascript.ContextListener)>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)>
+
+--- 链 7 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String ecmaToString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String toXMLString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlNode: java.lang.String ecmaToXMLString(org.mozilla.javascript.xmlimpl.XmlProcessor)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlProcessor: java.lang.String ecmaToXmlString(org.w3c.dom.Node)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlProcessor: java.lang.String escapeAttributeValue(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaMethod: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.Context: void addContextListener(org.mozilla.javascript.ContextListener)>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)>
+
+--- 链 8 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.IdScriptableObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getImpl(java.lang.String,int,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeScript: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.SecurityController$1: java.lang.Object exec(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaMethod: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)>
+
+--- 链 9 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.Interpreter: java.lang.Object interpretLoop(org.mozilla.javascript.Context,org.mozilla.javascript.Interpreter$CallFrame,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: org.mozilla.javascript.Scriptable newCatchScope(java.lang.Throwable,org.mozilla.javascript.Scriptable,java.lang.String,org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.WrappedException: void <init>(java.lang.Throwable)>->[-1, -1]
+<org.mozilla.javascript.Kit: java.lang.RuntimeException initCause(java.lang.RuntimeException,java.lang.Throwable)>->[-1, -1]
+<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)>
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  Sink #14: newInstance                                       ║
+║  找到链条...                                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+--- 链 1 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaPackage: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaPackage: java.lang.Object getPkgProperty(java.lang.String,org.mozilla.javascript.Scriptable,boolean)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.IdScriptableObject: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: void put(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.Class: java.lang.Object newInstance()>
+
+--- 链 2 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String js_toString(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeError: java.lang.String getString(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object execSub(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,java.lang.Object[],int)>->[-1, -1]
+<org.mozilla.javascript.regexp.NativeRegExp: java.lang.Object executeRegExp(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.regexp.RegExpImpl,java.lang.String,int[],int)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: void put(java.lang.String,org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: void put(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.Class: java.lang.Object newInstance()>
+
+--- 链 3 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Object readAdapterObject(org.mozilla.javascript.Scriptable,java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Class getAdapterClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class[],org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: org.mozilla.javascript.ObjToIntMap getObjectFunctionNames(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: int toInt32(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: double toNumber(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: java.lang.Object call(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.NativeJavaClass: org.mozilla.javascript.Scriptable construct(org.mozilla.javascript.Context,org.mozilla.javascript.Scriptable,java.lang.Object[])>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.Class: java.lang.Object newInstance()>
+
+--- 链 4 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: void initMembers()>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.util.Map getFieldAndMethodsObjects(org.mozilla.javascript.Scriptable,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.FieldAndMethods: void <init>(org.mozilla.javascript.Scriptable,org.mozilla.javascript.MemberBox[],java.lang.reflect.Field)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getFunctionPrototype(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeWith: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.Class: java.lang.Object newInstance()>
+
+--- 链 5 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Object readAdapterObject(org.mozilla.javascript.Scriptable,java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: java.lang.Class getAdapterClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class[],org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaAdapter: org.mozilla.javascript.ObjToIntMap getObjectFunctionNames(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object[] getPropertyIds(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: org.mozilla.javascript.Scriptable getPrototype()>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.Class: java.lang.Object newInstance()>
+
+--- 链 6 ---
+<org.mozilla.javascript.NativeJavaObject: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: void initMembers()>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: org.mozilla.javascript.JavaMembers lookupClass(org.mozilla.javascript.Scriptable,java.lang.Class,java.lang.Class,boolean)>->[-1, -1]
+<org.mozilla.javascript.ClassCache: org.mozilla.javascript.ClassCache get(org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getTopScopeValue(org.mozilla.javascript.Scriptable,java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: org.mozilla.javascript.Scriptable getPrototype()>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: org.mozilla.javascript.Scriptable getClassPrototype(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.ScriptableObject: java.lang.Object getProperty(org.mozilla.javascript.Scriptable,java.lang.String)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaArray: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.Class: java.lang.Object newInstance()>
+
+--- 链 7 ---
+<javax.management.BadAttributeValueExpException: void readObject(java.io.ObjectInputStream)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String toString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String ecmaToString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XML: java.lang.String toXMLString()>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlNode: java.lang.String ecmaToXMLString(org.mozilla.javascript.xmlimpl.XmlProcessor)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlProcessor: java.lang.String ecmaToXmlString(org.w3c.dom.Node)>->[-1, -1]
+<org.mozilla.javascript.xmlimpl.XmlProcessor: java.lang.String escapeAttributeValue(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.ScriptRuntime: java.lang.String toString(java.lang.Object)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object getDefaultValue(java.lang.Class)>->[-1, -1]
+<org.mozilla.javascript.NativeJavaObject: java.lang.Object get(java.lang.String,org.mozilla.javascript.Scriptable)>->[-1, -1]
+<org.mozilla.javascript.JavaMembers: java.lang.Object get(org.mozilla.javascript.Scriptable,java.lang.String,java.lang.Object,boolean)>->[-1, -1]
+<org.mozilla.javascript.MemberBox: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>->[-1, -1]
+<java.lang.Class: java.lang.Object newInstance()>
+
+
+
+═══════════════════════════════════════════════════════════════
+  总计: 110 条链
+═══════════════════════════════════════════════════════════════
