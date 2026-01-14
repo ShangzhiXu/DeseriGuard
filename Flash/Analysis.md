@@ -37,6 +37,6 @@ https://github.com/frohoff/ysoserial/blob/master/src/main/java/ysoserial/payload
    Method.invoke()
    ```
    再往上InvokerTransformer.transform就断掉了，考虑是不是对这个transform没有定义，在https://github.com/CGCL-codes/Flash/blob/main/java-benchmarks/JDV/priori-knowledge.yml里面
-   但是添加上之后，也扫不出来，感觉是对于这种反射的处理还是不够好。
+   但是添加上之后，也扫不出来，感觉是对于这种反射的处理还是不够好，还需要进一步分析
    
 
